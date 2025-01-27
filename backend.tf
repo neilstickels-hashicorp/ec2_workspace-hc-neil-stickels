@@ -1,8 +1,8 @@
   terraform {
   backend "remote" {
-    organization = "your-org"
+    organization = "hashicorp-wwtfo-demo-platform-prod"
     workspaces {
-      name = "ec2-workspace"
+      name = "ec2-workspace-ROJ6"
     }
   }
 }

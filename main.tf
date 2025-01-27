@@ -23,3 +23,20 @@ data "aws_ami" "ubuntu20" {
   }
   owners = ["099720109477"] # Canonical
 }
+# __generated__ by Terraform
+# Please review these resources and move them into your main configuration files.
+
+# __generated__ by Terraform from "tough-lark-bucket"
+resource "aws_s3_bucket" "imported_bucket" {
+  bucket              = "tough-lark-bucket"
+  bucket_prefix       = null
+  force_destroy       = null
+  object_lock_enabled = false
+  tags = {
+    owner = "hc-neil-stickels"
+  }
+  tags_all = {
+    customer = "hashicat-inc"
+    owner    = "hc-neil-stickels"
+  }
+}
